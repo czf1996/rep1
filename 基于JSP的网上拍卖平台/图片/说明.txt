@@ -1,0 +1,6 @@
+项目配置了虚拟路径，将图片文件夹放在D盘的根目录即可。
+如果不行，在tomcat/conf/server.xml中配置虚拟了路径（myeclipse中配置虚拟目录的方法，elipse略百度上都有）
+
+
+		<!--设置图片的虚拟目录 -->
+		<Context path="/pic" docBase="D:/online" ></Context>
